@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+        }
+
+        body {
+            display: grid
+        }
+
+        div {
+            margin: 5px;
+            padding: 15px;
+            border: 1px dashed grey;
+        }
+
+        .header {
+        }
+
+        .body {
+        }
+
+        .main {
+        }
+
+        .footer {
+        }
+
+        @media screen and (min-width: 480px) {
+            .body {
+                display: grid;
+                grid-template-columns: 1fr 2fr 1fr
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">Header</div>
+<div class="body">
+    <div class="side-panel-1">Side Panel #1</div>
+    <div class="main">Main</div>
+    <div class="side-panel-2">Side Panel #2</div>
+</div>
+<div class="footer">Footer</div>
+</body>
+</html>

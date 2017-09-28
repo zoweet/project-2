@@ -1,0 +1,110 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url("img/Free-Tileable-Black-Wood-Textures-Patterns-For-3D-Mappin.jpg");
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-fill {
+    display: block;
+    flex: 1
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    /*background: rgba(255, 255, 255, 0.2);*/
+    flex-direction: row;
+
+}
+
+.head {
+    flex: 1;
+    background-color: cornsilk;
+    align-items: stretch;
+    padding: 15px;
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+    margin: 1%;
+}
+
+.logo {
+    display: flex;
+    /*text-align: center;*/
+    /*background-color: cornsilk;*/
+}
+
+.image {
+    /*margin: auto;*/
+    /*width: auto;*/
+    display: flex;
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+    padding: 15px;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.title {
+    display: flex;
+    flex: 1;
+    font-size: 82px;
+    /*text-align: center;*/
+    /*align-items: stretch;*/
+    font-family: 'Berkshire Swash', cursive;
+    justify-content: center;
+    align-items: center;
+}
+.side-panel {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.2);
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+    padding: 15px;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.menu-button{
+    /*display: flex;*/
+    flex: 1;
+    /*border-radius: 50%;*/
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    color: black;
+    margin: 5%;
+    background-color: cornsilk;
+    min-width: 120px;
+    /*border: olive;*/
+
+
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: cornsilk;
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+    padding: 15px;
+    margin: 1%;
+   flex-direction: column;
+
+}
