@@ -54,6 +54,7 @@ html, body {
     /*margin: auto;*/
     /*width: auto;*/
     display: flex;
+    flex: 1;
     border-top: 3px solid olive;
     border-bottom: 3px solid olive;
     padding: 15px;
@@ -216,10 +217,6 @@ image{
 }
 
 .pasta-container {
-
-}
-
-.pasta-bowls {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -231,4 +228,41 @@ image{
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.pasta-bowls {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 0%;
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.pasta-main {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.classic-dinner-pics {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.classic-dinner-pics-left {
+    /*display: flex;*/
+    flex: 1;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 0%;
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+
 }
