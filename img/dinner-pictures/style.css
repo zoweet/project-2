@@ -80,7 +80,7 @@ html, body {
     border-bottom: 3px solid olive;
     padding: 15px;
     margin: 1%;
-    flex-direction: row;
+    flex-direction: column;
     align-content: stretch;
 }
 
@@ -254,15 +254,39 @@ image{
     display: flex;
     flex: 1;
     flex-direction: column;
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+    padding: 15px;
+    margin: 1%;
+
 }
 .classic-dinner-pics-left {
-    /*display: flex;*/
-    flex: 1;
+    display: flex;
+    /*flex: 1;*/
     flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 4%;
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+
+
+}
+
+.classic-dinner-pics-right {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
     background: rgba(255, 255, 255, 0.2);
     padding: 15px;
     margin: 0%;
     border-top: 3px solid olive;
     border-bottom: 3px solid olive;
 
+}
+
+.center {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
